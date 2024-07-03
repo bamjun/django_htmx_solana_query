@@ -1,0 +1,8 @@
+{% for tx in transactions %}
+    <div>
+        <p><strong>Signature:</strong> {{ tx.signature }}</p>
+        <p><strong>Slot:</strong> {{ tx.slot }}</p>
+        <p><strong>Confirmations:</strong> {{ tx.confirmationStatus }}</p>
+        <hr>
+    </div>
+{% endfor %}

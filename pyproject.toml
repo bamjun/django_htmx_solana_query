@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-transactions"
+version = "0.1.0"
+description = ""
+authors = ["bamjun <khy5116@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+solana = "^0.34.2"
+django-htmx = "^1.18.0"
+solders = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
